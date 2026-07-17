@@ -1,0 +1,42 @@
+1. EDA - Exploratory data analysis
+know your data 
+    . head() , tail() , shape() , describe() 
+    . outliers finding
+
+2. Data Cleaning
+    . configure missing value 
+       . Numerical - mean/median
+       . Categorical - mode
+    . Remove Duplicate
+    . Fixing Data Types (numbers string dates)
+    . Handling incosistesnt category
+    . Handle Outlier --  -- use boxplot , IQR , Z-score
+        . Remove 
+        . Capping  
+
+3. Data Preprocessing
+To prepace data so it can be processed by machine
+    . Encoding (yes/no = 1/0)     -- machine only learn numerical variable   
+        . Label Encoding
+        . One hot Encoding
+    . Feature Transformation
+        . Handle skewed data
+    . Feature Scaling
+        . Normalization  - 0-1
+        . Standardinzation  - z score scaling  -- mean =0 , std = 1
+
+4. Feature Engineering
+Creating/Deriving new feature such 
+    . Target Based Flags
+    . Binning
+    . Time Based Feature
+
+5. Feature Selection
+Choosing Best for model 
+    . Reduces Noise , speedsup , improve accuracy , interpretation easier
+    . Filtering Method 
+        . Correlation Matrix  -- remove high correleated
+        . Chi-Square test     -- Categorical vs Categorical
+        . Anova test          -- Numerical vs Categorical
+    . Embedded methods
+        . Lasso Regression
